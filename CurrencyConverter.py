@@ -35,8 +35,8 @@ frame.pack()
 frame.place(anchor='center', relx=0.5, rely=0.5)
 
 # Create the Image Background
-img = ImageTk.PhotoImage(Image.open("Currency Converter Image.png"))    #This code line creates an object for the image
-label = Label(frame, image=img)                                         #This line of code creates a label for the image object and place it inside the pop up window
+img = ImageTk.PhotoImage(Image.open("Currency Converter Image.png"))    
+label = Label(frame, image=img)                                         
 label.pack()
 
 # Create Buttons, Input Fields inside the Pop Up Window and Placement
@@ -66,7 +66,7 @@ entry_crypto_currency.place(x=340, y=325)
 crypto_btn_convert = Button(window,text="CryptoConvert",command=crypto_conversion,bg="#00FF00",fg="black",font=('Arial',11))
 crypto_btn_convert.place(x=340, y=365)
 
-forex_conversion_result = Label(window,text="Conversion Rate: ", bg="white", fg="green", font=('Arial',11))    #This line of code creates a label(space inside the pop up window) for the final result
+forex_conversion_result = Label(window,text="Conversion Rate: ", bg="white", fg="green", font=('Arial',11))    
 forex_conversion_result.place(x=70, y=425) 
 crypto_conversion_result = Label(window,text="Conversion Rate: ", bg="white", fg="green", font=('Arial',11))
 crypto_conversion_result.place(x=340, y=425)
