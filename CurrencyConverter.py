@@ -29,7 +29,6 @@ window = tk.Tk()
 window.title("Currency Converter")
 window.resizable(width=False, height=False)
 window.geometry("605x595")
-#This is just a test line
 
 frame = tk.Frame(master=window, width=400, height=400)
 frame.pack()
